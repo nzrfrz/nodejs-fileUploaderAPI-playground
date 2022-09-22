@@ -9,14 +9,9 @@ export const responseStatus = () => {
 export const responseMessage = () => {
     return {
         errorServer: "Something went wrong, please try again later !!",
-        successCreateBlogPost: "New blog post created successfully !!!",
-        successEditBlogPost: "Blog post edited successfully !!!",
-        successDeleteBlogPost: "Blog post deleted successfully !!!",
-        successTokenValid: "Token valid",
-        errorCreateBlogPost: "Error creating new blog post !!!",
-        errorBlogPostNotFound: "Blog post not found or has been deleted !!!",
-        errorTokenInvalid: "Token invalid or expired !!!",
-        errorAccess: "Access token required !!!"
+        errorFileType: "File type does not supported, please choose either .png, .jpeg, .jpg, .webp, or .svg",
+        errorFileSize: "File too large, only max 2MB allowed",
+        successUpload: "File successfully uploaded",
     }
 };
 
