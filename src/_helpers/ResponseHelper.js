@@ -11,7 +11,9 @@ export const responseMessage = () => {
         errorServer: "Something went wrong, please try again later !!",
         errorFileType: "File type does not supported, please choose either .png, .jpeg, .jpg, .webp, or .svg",
         errorFileSize: "File too large, only max 2MB allowed",
+        errorDelete: "File not deleted yet, please try again later",
         successUpload: "File successfully uploaded",
+        successDelete: "File successfully deleted !!!"
     }
 };
 
